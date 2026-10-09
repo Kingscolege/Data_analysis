@@ -1,0 +1,44 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package / Distribution artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (Uncomment if datasets are too large for Git)
+# *.csv
+# *.parquet
+# *.sqlite
