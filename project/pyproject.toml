@@ -8,6 +8,8 @@ dependencies = [
     "ipykernel>=7.4.0",
     "matplotlib>=3.11.2",
     "pandas>=3.0.6",
+    "pymysql>=1.2.3",
+    "sqlalchemy>=2.1.4",
 ]
 
 [tool.uv.workspace]
